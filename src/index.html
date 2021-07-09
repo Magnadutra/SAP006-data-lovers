@@ -16,31 +16,72 @@
     </div>
   </header>
 
-  <!-- <nav>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Temporada 1</a></li>
-                            <li><a href="#">Temporada 2</a></li>
-                            <li><a href="#">Temporada 3</a></li>
-                        </ul>
-                    </nav>-->
 
-  <!-- <main>
-        <article>
-            <p class="paragrafo">AQUI VOCÊ CONSEGUE SEPARAR AS CARACTERISTICAS DOS PERSONAGENS RICK AND MORTY POR
-                TEMPORADAS. </p>
-        </article>
+  <div class="img-fundo">
 
-    </main> -->
+<div class="organiza-selects">
 
-  <!-- E aqui está o nosso rodapé principal que é usado em todas as páginas do nosso site
+    <section>
+      <form class="filter">
+        <select class="select-gender" id="gender">
+          <option class="select-gender" value="gender" selected disabled>Gênero</option>
+          <option class="select-gender" value="all-gender">Todos</option>
+          <option class="select-gender" value="Female">Feminino</option>
+          <option class="select-gender" value="Male">Masculino</option>
+          <option class="select-gender" value="unknown">Desconhecido</option>
+        </select>
 
-<footer>
-    <p>redes sociais IMAGEM</p>
-</footer>-->
+        <select class="select-species" id="species">
+          <option class="select-species" value="species" selected disabled>Espécie</option>
+          <option class="select-species" value="all-species">Todos</option>
+          <option class="select-species" value="Human">Humano</option>
+          <option class="select-species" value="Alien">Alien</option>
+          <option class="select-species" value="Humanoid">Humanoide</option>
+          <option class="select-species" value="Poopybutthole">Poopybutthole</option>
+          <option class="select-species" value="Mytholog">Mitológico</option>
+          <option class="select-species" value="Vampire">Vampiro</option>
+          <option class="select-species" value="Robot">Robô</option>
+          <option class="select-species" value="Cronenberg">Cronenberg</option>
+          <option class="select-species" value="Disease">Doença</option>
+          <option class="select-species" value="Parasite">Parasita</option>
+          <option class="select-species" value="unknown">Desconhecido</option>
+        </select>
 
+        <select class="select-status" id="status">
+          <option class="select-status" value="status" selected disabled>Status</option>
+          <option class="select-status" value="all-status">Todos</option>
+          <option class="select-status" value="Alive">Vivo</option>
+          <option class="select-status" value="Dead">Morto</option>
+          <option class="select-status" value="unknown">Desconhecido</option>
+        </select>
+    </form>
+  </section>
+  </div>
+
+  <main class="teste-rolar">
+    <div id="calculo-por-escolha"></div>
+    <section class="listagem" id="listagem"></section>
+  </main>
+
+  <div class="organiza-cards">
+    <div class="card">
+    </div>
+    <div class="card-frente">
+      <div class="title">Rick Sanchez
+    </div>
+    </div>
+
+</div>
+
+
+  <!-- E aqui está o nosso rodapé principal que é usado em todas as páginas do nosso site -->
+
+  <!-- <footer>
+      <p>redes sociais IMAGEM</p>
+  </footer> -->
 
   <script src="main.js" type="module"></script>
+
 </body>
 
 </html>

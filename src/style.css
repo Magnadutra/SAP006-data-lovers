@@ -5,11 +5,12 @@
   box-sizing: border-box;
 }
 
+/* Inicio Barra Lateral */
 #root {
   /*/responsivo/*/
   background-color: #dbbe32;
   position: fixed;
-  width: 400px;
+  width: 385px;
   height: 100%;
   padding-top: 20px;
 }
@@ -28,5 +29,133 @@
   margin-top: 250px;
   padding: 0px 50px;
   text-align: center;
-
 }
+/* FIM Barra Lateral */
+
+
+/* Cor ou imagem fundo */
+.img-fundo {
+ background-color: rgb(219 190 50);
+/* background-image: url(img.fundo.png);
+ background-size: 100%; 
+background-repeat: no-repeat; */
+width: 80%;
+margin-left: 420px;
+}
+
+
+
+
+/* Inicio Selects */
+
+.organiza-selects{
+/* background: black; */
+width: 15%;
+padding-top: 153px;
+}
+
+
+.select-status,
+.select-gender,
+.select-species {
+  background-color: #96d7ed;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 20px 10px;
+  width: 90%;
+}
+
+
+#calculo-por-escolha {
+  color: white;
+  display: none;
+  justify-content: center;
+  font-size: 16px;
+  text-align: center;
+  margin: 2% 30% 2% 30%;
+  background-color: transparent;
+  border: 5px solid rgba(115, 187, 86, 0.801);
+  border-radius: 9px;
+}
+
+.listagem {
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  width: 80%;
+}
+/* Fim Selects */
+
+
+/* Inicio cards */
+
+.organiza-cards {
+  /* background-color: aquamarine; */
+  width: 80%;
+  margin-left: 16%;
+}
+
+.card {
+  width: 280px;
+  height: 280px;
+  margin: auto;
+  position: relative;
+  padding: 20px;
+  overflow: hidden;
+  transform: scale(0.95);
+  background-image: url("https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/1.jpeg");
+  box-shadow: 0 0 6px 0px rgb(37, 37, 37);
+}
+
+
+.card-frente {
+  width: 270px;
+  height: 50px;
+  margin: auto;
+  position: relative;
+  background-color: #96d7ed;
+  text-align: center;
+  backface-visibility: hidden;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 6px 0px rgb(37, 37, 37);
+}
+
+.card:after,
+.card:before,
+.card-frente:after,
+.card-frente:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform .3s ease-in-out;
+}
+
+.card:before,
+.card-frente:before {
+  border-left: 1.5px solid black;
+  border-right: 1.5px solid black;
+  transform: scaleY(0);
+}
+
+.card:after,
+.card-frente:after {
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+  transform: scaleX(0);
+}
+
+.card:hover:before,
+.card-frente:hover:before {
+  transform: scaleY(1);
+}
+
+.card:hover:after,
+.card-frente:hover:after {
+  transform: scaleX(1);
+}
+/* Fim cards */
