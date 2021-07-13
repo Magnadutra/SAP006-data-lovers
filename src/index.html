@@ -11,76 +11,100 @@
   <header>
     <div id="root">
       <div class="logo"></div>
-      <p class="paragrafo">AQUI VOCÊ CONSEGUE SEPARAR AS CARACTERISTICAS DOS PERSONAGENS RICK AND MORTY POR
-        TEMPORADAS. </p>
+      <p class="paragrafo">AQUI VOCÊ CONSEGUE SEPARAR AS CARACTERISTICAS DOS PERSONAGENS DA SÉRIE RICK AND MORTY.</p>
     </div>
   </header>
 
 
   <div class="img-fundo">
 
-<div class="organiza-selects">
+    <div class="organiza-selects">
 
-    <section>
-      <form class="filter">
-        <select class="select-gender" id="gender">
-          <option class="select-gender" value="gender" selected disabled>Gênero</option>
-          <option class="select-gender" value="all-gender">Todos</option>
-          <option class="select-gender" value="Female">Feminino</option>
-          <option class="select-gender" value="Male">Masculino</option>
-          <option class="select-gender" value="unknown">Desconhecido</option>
-        </select>
+      <section>
+        <form for="filter-gender">
+          <select class="filter-gender" id="gender">
+            <option class="filter-gender" value="gender" selected disabled>Gênero</option>
+            <option class="filter-gender" value="all-gender">Todos</option>
+            <option class="filter-gender" value="Female">Feminino</option>
+            <option class="filter-gender" value="Male">Masculino</option>
+            <option class="filter-gender" value="unknown">Desconhecido</option>
+          </select>
+        </form>
 
-        <select class="select-species" id="species">
-          <option class="select-species" value="species" selected disabled>Espécie</option>
-          <option class="select-species" value="all-species">Todos</option>
-          <option class="select-species" value="Human">Humano</option>
-          <option class="select-species" value="Alien">Alien</option>
-          <option class="select-species" value="Humanoid">Humanoide</option>
-          <option class="select-species" value="Poopybutthole">Poopybutthole</option>
-          <option class="select-species" value="Mytholog">Mitológico</option>
-          <option class="select-species" value="Vampire">Vampiro</option>
-          <option class="select-species" value="Robot">Robô</option>
-          <option class="select-species" value="Cronenberg">Cronenberg</option>
-          <option class="select-species" value="Disease">Doença</option>
-          <option class="select-species" value="Parasite">Parasita</option>
-          <option class="select-species" value="unknown">Desconhecido</option>
-        </select>
+        <form for="filter-species">
+          <select class="filter-species" id="species">
+            <option class="filter-species" value="species" selected disabled>Espécie</option>
+            <option class="filter-species" value="all-species">Todos</option>
+            <option class="filter-species" value="Human">Humano</option>
+            <option class="filter-species" value="Alien">Alien</option>
+            <option class="filter-species" value="Humanoid">Humanoide</option>
+            <option class="filter-species" value="Poopybutthole">Poopybutthole</option>
+            <option class="filter-species" value="Mytholog">Mitológico</option>
+            <option class="filter-species" value="Vampire">Vampiro</option>
+            <option class="filter-species" value="Robot">Robô</option>
+            <option class="filter-species" value="Cronenberg">Cronenberg</option>
+            <option class="filter-species" value="Disease">Doença</option>
+            <option class="filter-species" value="Parasite">Parasita</option>
+            <option class="filter-species" value="unknown">Desconhecido</option>
+          </select>
+        </form>
 
-        <select class="select-status" id="status">
-          <option class="select-status" value="status" selected disabled>Status</option>
-          <option class="select-status" value="all-status">Todos</option>
-          <option class="select-status" value="Alive">Vivo</option>
-          <option class="select-status" value="Dead">Morto</option>
-          <option class="select-status" value="unknown">Desconhecido</option>
-        </select>
-    </form>
-  </section>
-  </div>
+        <form for="filter-status">
+          <select class="filter-status" id="status">
+            <option class="filter-status" value="status" selected disabled>Status</option>
+            <option class="filter-status" value="all-status">Todos</option>
+            <option class="filter-status" value="Alive">Vivo</option>
+            <option class="filter-status" value="Dead">Morto</option>
+            <option class="filter-status" value="unknown">Desconhecido</option>
+          </select>
+        </form>
 
-  <main class="teste-rolar">
-    <div id="calculo-por-escolha"></div>
-    <section class="listagem" id="listagem"></section>
-  </main>
+        <form for="filter-order">
+          <select class="filter-order" id="order">
+            <option class="filter-order" value="order" selected disabled>Ordem</option>
+            <option class="filter-order" value="az">A - Z</option>
+            <option class="filter-order" value="za">Z - A</option>
+          </select>
+        </form>
 
-  <div class="organiza-cards">
-    <div class="card">
+
+      </section>
     </div>
-    <div class="card-frente">
-      <div class="title">Rick Sanchez
-    </div>
-    </div>
 
-</div>
+    
+    <main class="base-cards" id="personagens"> 
+      <div id="calculo-por-escolha"></div>
+
+      <!-- <div class="organiza-cards">
+        <div class="formatacao-card">
+      
+          <div class="card-frente">
+            <img src="${personagem.image}">
+            <p class="title">${personagem.name}</p>
+          </div>
+      
+          <div class="card-verso"> 
+            <ul>
+              <li>Gênero: ${personagem.gender}</li>  (LISTAS)
+              <li>Espécie: ${personagem.species}</li>
+              <li>Status: ${personagem.status}</li>
+              <li>Origem: ${personagem.origin.name}</li>
+            </ul>
+          </div>
+      
+        </div>
+      </div> -->
+
+    </main>
 
 
-  <!-- E aqui está o nosso rodapé principal que é usado em todas as páginas do nosso site -->
+    <!-- E aqui está o nosso rodapé principal que é usado em todas as páginas do nosso site -->
 
-  <!-- <footer>
+    <!-- <footer>
       <p>redes sociais IMAGEM</p>
   </footer> -->
 
-  <script src="main.js" type="module"></script>
+    <script src="main.js" type="module"></script>
 
 </body>
 

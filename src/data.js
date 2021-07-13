@@ -1,9 +1,12 @@
 // estas funciones son de ejemplo
 
-export const example = () => {
-  return 'example';
-};
+// export const filterGenderSelect = (dataBase, filterGenderSelect) =>
+// dataBase.filter((dataBase) => dataBase.gender === )
 
-export const anotherExample = () => {
-  return 'OMG';
-};
+// {
+//   return 'example';
+// };
+
+// export const anotherExample = () => {
+//   return 'OMG';
+// };
