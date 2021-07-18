@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" /> 
 </head>
 
 <body>
@@ -12,6 +13,14 @@
     <div id="root">
       <div class="logo"></div>
       <p class="paragrafo">AQUI VOCÊ CONSEGUE SEPARAR AS CARACTERISTICAS DOS PERSONAGENS DA SÉRIE RICK AND MORTY.</p>
+      
+          <div class="organiza-icon">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="https://www.instagram.com/rickandmorty/"target="_blank" class="fa fa-instagram"></a>
+            <a href="https://twitter.com/rickandmorty/"target="_blank" class="fa fa-twitter"></a>
+            <a href="https://github.com/Magnadutra/"target="_blank" class="fa fa-github"></a> 
+            <a href="https://github.com/thaianecristine/"target="_blank" class="fa fa-github"></a>
+          </div>
     </div>
   </header>
 
@@ -21,17 +30,15 @@
     <div class="organiza-selects">
 
       <section>
-        <form for="filter-gender">
+      
           <select class="filter-gender" id="gender">
-            <option class="filter-gender" value="gender" selected disabled>Gênero</option>
+            <option class="select-gender" value="gender" selected disabled>Gênero</option>
             <option class="filter-gender" value="all-gender">Todos</option>
             <option class="filter-gender" value="Female">Feminino</option>
             <option class="filter-gender" value="Male">Masculino</option>
             <option class="filter-gender" value="unknown">Desconhecido</option>
           </select>
-        </form>
-
-        <form for="filter-species">
+  
           <select class="filter-species" id="species">
             <option class="filter-species" value="species" selected disabled>Espécie</option>
             <option class="filter-species" value="all-species">Todos</option>
@@ -47,9 +54,7 @@
             <option class="filter-species" value="Parasite">Parasita</option>
             <option class="filter-species" value="unknown">Desconhecido</option>
           </select>
-        </form>
-
-        <form for="filter-status">
+          
           <select class="filter-status" id="status">
             <option class="filter-status" value="status" selected disabled>Status</option>
             <option class="filter-status" value="all-status">Todos</option>
@@ -57,23 +62,20 @@
             <option class="filter-status" value="Dead">Morto</option>
             <option class="filter-status" value="unknown">Desconhecido</option>
           </select>
-        </form>
-
-        <form for="filter-order">
+      
+      
           <select class="filter-order" id="order">
             <option class="filter-order" value="order" selected disabled>Ordem</option>
             <option class="filter-order" value="az">A - Z</option>
             <option class="filter-order" value="za">Z - A</option>
           </select>
-        </form>
-
 
       </section>
     </div>
 
     
     <main class="base-cards" id="personagens"> 
-      <div id="calculo-por-escolha"></div>
+      <div class="calculo" id="calculo-por-escolha"></div>
 
       <!-- <div class="organiza-cards">
         <div class="formatacao-card">
@@ -100,9 +102,16 @@
 
     <!-- E aqui está o nosso rodapé principal que é usado em todas as páginas do nosso site -->
 
-    <!-- <footer>
-      <p>redes sociais IMAGEM</p>
-  </footer> -->
+    <footer>
+      <div> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<a href="#" class="fa fa-instagram"></a>
+<!-- <a href="#" class="fa fa-twitter"></a> -->
+
+
+      </div>
+  </footer> 
 
     <script src="main.js" type="module"></script>
 
