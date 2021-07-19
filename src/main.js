@@ -41,6 +41,7 @@ let info = personagem[item];
           <li>Gênero: ${info.gender}</li> 
           <li>Espécie: ${info.species}</li>
           <li>Status: ${info.status}</li>
+          <li>Status: ${info.location.name}</li>
         </ul>
       </div>
 
@@ -51,8 +52,6 @@ mainPersonagens.appendChild(elementoCard)
 }
 }
 
-// Manipular o DOM /
-
 document.getElementById("hero").innerHTML = mainPersonagens
 
 
@@ -62,7 +61,7 @@ printCharacters(chamarFuncao)
 })*/
 function resultCalc(dataBase, selectedFilter) {
   let result = calcFilter(dataBase, selectedFilter)
-  //document.getElementById("calculation").innerHTML = "Existem " + selectedFilter.length + " personagens deste filtro e representam " + result + "% do total de personagens"
+  document.getElementById("calculation").innerHTML = "Existem " + selectedFilter.length + " personagens deste filtro e representam " + result + "% do total de personagens"
 }
 
 function filterGender() {

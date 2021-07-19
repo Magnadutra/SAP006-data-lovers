@@ -69,6 +69,8 @@ content: #000;
   margin-top: 170px;
   padding: 0px 50px;
   text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 .organiza-icon{
 margin: 100px auto;
@@ -111,6 +113,7 @@ display: table;
   border-radius: 20px;
   margin: 20px 10px;
   width: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -285,7 +288,7 @@ p.title {
 .filter-species,
 .filter-order {
  width: 20%;
-     font-size: 1.3em;
+font-size: 1.3em;
 }
 
 
