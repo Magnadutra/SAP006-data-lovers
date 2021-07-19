@@ -13,18 +13,18 @@ selectGender.addEventListener('change', filterGender);
 filterSelectSpecies.addEventListener('change', filterSpecies);
 filterSelectStatus.addEventListener('change', filterStatus);
 filterSelectOrder.addEventListener('change', filterOrder);
-document.getElementById("hero").onload = printCharacters(dataBase);
+//document.getElementById("hero").onload = printCharacters(dataBase);
 
 function printCharacters(personagem) {
 let mainPersonagens = document.getElementById("personagens")
-mainPersonagens.innerHTML = ""
-
+//mainPersonagens.innerHTML = ""
+let cards = ""
 for(let item in personagem){
 let info = personagem[item];
 
 
-  const elementoCard = document.createElement("div")
-  elementoCard.innerHTML =
+  //const elementoCard = document.createElement("div")
+  cards +=
   `
 
    <div class="organiza-cards">
@@ -48,11 +48,12 @@ let info = personagem[item];
     </div>
   </div>
 `
-mainPersonagens.appendChild(elementoCard)
+//mainPersonagens.appendChild(elementoCard)
 }
+mainPersonagens.innerHTML= cards
 }
-
-document.getElementById("hero").innerHTML = mainPersonagens
+printCharacters(dataBase)
+//document.getElementById("hero").innerHTML = mainPersonagens
 
 
 /*const selectOption = event.target.value
