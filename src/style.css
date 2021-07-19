@@ -85,8 +85,7 @@ a.fa.fa-github {
   .img-fundo {
  /* background-size: 100%; */
     background-color: rgb(219 190 50);
-    width: 71.4%;
-    margin-left: 395px;
+    margin-left: 28%;
   }
 
 
@@ -203,6 +202,16 @@ body{
 
 /* RESPONSIVIDADE  */
 
+ @media only screen and (max-width: 1200px) {
+
+   .organiza-cards {
+     margin: 15px 20px;
+   }
+
+ }
+
+
+
 @media only screen and (max-width: 1000px) {
   * {
     padding: 0px;
@@ -258,10 +267,12 @@ body{
     width: 100%;
     margin-left: 0px;
   }
- .base-cards {
-   width: 100%;
-   margin-left: 0;
- }
+  
+.base-cards {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
 
  .card-frente, .card-verso{
    height: unset;
@@ -290,6 +301,8 @@ body{
 
 
 }  
+
+
  
 @media only screen and (max-width: 800px) {
    .filter-status,

@@ -1,19 +1,17 @@
 // import { filterGenderSelect, filterSpeciesSelects, filterstatus, sorOrder, calculoPorEscolha } from './data.js';
 import data from './data/rickandmorty/rickandmorty.js';
 
-const dataBase = data.results;
+const dataBase = data.results; //Para trazer todos os dados do data
 
 
 ///FUNÇÃO DE IMPRIMIR AS INFORMAÇÕES NA TELA
-const MainPersonagens = document.getElementById("personagens")
+const MainPersonagens = document.getElementById("personagens") 
 
 //Função card - paramêtro personagem
 function card(personagem) {
   const elementoCard = `
-
    <div class="organiza-cards">
     <div class="formatacao-card"> 
-
       <div class="card-frente">
         <img src="${personagem.image}">
         <p class="title">${personagem.name}</p>
@@ -27,7 +25,6 @@ function card(personagem) {
           <li>Origem: ${personagem.origin.name}</li>
         </ul>
       </div>
-
     </div>
   </div>
 `
@@ -35,12 +32,11 @@ function card(personagem) {
 
 }
 
-/*/só usamos array*/ 
+/*/só usamos array*/
 /*/index é o número do array/*/
 /*/Data base informações da API/*/
 
-let todosOsCards = ""
-
+let todosOsCards = "" //limpar tela
 
 for (let index = 0; index < dataBase.length; index++) { //++ somando e retornando
   const personagem = dataBase[index];
@@ -48,7 +44,15 @@ for (let index = 0; index < dataBase.length; index++) { //++ somando e retornand
 
 }
 
-MainPersonagens.innerHTML = todosOsCards
+MainPersonagens.innerHTML = todosOsCards //variavel co
+
+// Manipular o DOM igual ao cifer
+
+// resposividade e sort
+
+
+
+// selectGender.addEventListener("change", gender) //pra não precisar por botão / apenas select
 
 
 
@@ -56,13 +60,20 @@ MainPersonagens.innerHTML = todosOsCards
 
 
 
-const filterSelectGender = document.getElementById("gender");
-const filterSelectSpecies = document.getElementById("species");
-const filterSelectStatus = document.getElementById("status");
-const filterSelectOrder = document.getElementById("order");
 
 
-//  como vou acessar o nome e criar uma div
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
