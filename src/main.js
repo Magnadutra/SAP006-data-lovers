@@ -90,4 +90,6 @@ function filterOrder() {
   const valueOrderSelected = filterSelectOrder.value
   const selectedOrder = sortOrder(dataBase, valueOrderSelected)
   printCharacters(selectedOrder)
+  resultCalc(dataBase, selectedOrder)
+
 }
