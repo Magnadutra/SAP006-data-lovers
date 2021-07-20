@@ -22,7 +22,7 @@ font-size: 30px;
 width: 30px;
 text-align: center;
 text-decoration: none;
-    margin: 51px 3px;
+margin: 51px 3px;
 border-radius: 50%;
 }
 
@@ -71,12 +71,20 @@ content: #000;
   text-align: center;
 }
 .organiza-icon{
-margin: 100px auto;
+margin: auto;
 box-sizing: border-box;
 display: table;
 /* background-color: rgb(155, 139, 139); */
 }
 
+.calculation {
+  margin-top: 100px;
+  padding: 0px 10px;
+  text-align: center;
+  font-family: monospace;
+  font-size:large;
+  
+}
 
 /* FIM Barra Lateral */
 
@@ -106,12 +114,32 @@ display: table;
 .filter-order {
   background-color: #96d7ed;
   border: 1px solid #ccc;
+  font-family: monospace;
   padding: 15px;
   border-radius: 20px;
   margin: 20px 10px;
   width: 90%;
+  line-height: 24px;
+  cursor:pointer
+}
+select {
+  color: black;
 }
 
+select:hover,
+select:focus,
+select:active,
+select:checked {
+  opacity: 0.7;
+}
+
+/*select option {
+  color: #333;
+}
+
+option[value=""][disabled] {
+  display: none;
+}*/
 
 /* Inicio cards */
 
@@ -155,7 +183,7 @@ display: table;
   font-family:monospace;
   font-size: x-large;
   font-weight: bold;
-  text-align: center;
+  text-align:center;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -175,17 +203,18 @@ display: table;
 /*flip retorno mais informações dos personagens*/
 .card-verso {
   transform: rotateY(180deg);
-  background-color: #2e7d32;
+  background-color: #96d7ed;
+  font-family:monospace;
+  font-size: x-large;
   justify-content: center;
   align-items: center;
-  font-size: 1.3em;
-  color: #fff;
+  color: black;
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden;
+  backface-visibility:hidden;
   border-radius: 5px;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 ul {

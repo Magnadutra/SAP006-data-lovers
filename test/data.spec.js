@@ -1,4 +1,4 @@
-/*import { filterGenderSelected, filterStatusSelected, filterSpeciesSelected, sortOrder, calcFilter } from '../src/data.js';
+import { filterGenderSelected, filterStatusSelected, filterSpeciesSelected, sortOrder, calcFilter } from '../src/data.js';
 const dataBaseTeste = [
   {
     "id": 3,
@@ -190,4 +190,4 @@ describe('Testar cálculo agregado', () => {
     const selectedSpecies = filterSpeciesSelected(dataBaseTeste, "Human")
     expect(calcFilter(dataBaseTeste, selectedSpecies)).toBe("38.46");
   });
-}); */
+}); 
