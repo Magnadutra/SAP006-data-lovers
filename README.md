@@ -35,16 +35,16 @@ Tivemos o cuidado de não enviesar a pesquisa, afim de adquirir insights para a 
 Os úsuários que mais se interessam pela série têm entre 22 a 31 anos. 
 
 - 100% Dos usuários gostariam de saber mais sobre cada personagens.
-<img src="img1.jpg" title="Gostaria de saber mais sobre cada personagem?">
+<img src="C:\Users\maagd\OneDrive\Área de Trabalho\SAP006-data-lovers\src\img readme\img1.JPG" title="Gostaria de saber mais sobre cada personagem?">
 
 - 63,6% Consideram importante pesquisar sobre os personagens.
-<img src="img2.jpg" title="Quando assiste séries, pesquisa sobre os eprsonagnes?">
+<img src="C:\Users\maagd\OneDrive\Área de Trabalho\SAP006-data-lovers\src\img readme\img2.JPG" title="Quando assiste séries, pesquisa sobre os eprsonagnes?">
 
 - 54,5% Indentificamos o Rick como o personagem favorito, importante para definirmos a proposta de layout e cores.
-<img src="img3.jpg" title="Qual dos dois personagens você mais gosta?">
+<img src="C:\Users\maagd\OneDrive\Área de Trabalho\SAP006-data-lovers\src\img readme\img3.JPG" title="Qual dos dois personagens você mais gosta?">
 
 - 63,6% Dos usúarios consideram importante saber a espécie/gênero dos personagens.
-<img src="img4.jpg" title="Para você é importante saber a espécie/gênero dos personagens?">
+<img src="C:\Users\maagd\OneDrive\Área de Trabalho\SAP006-data-lovers\src\img readme\img4.JPG" title="Para você é importante saber a espécie/gênero dos personagens?">
 
 - Critérios de aceitação:
 
@@ -63,28 +63,28 @@ E também levando em consideração grandes redes sociais como o Facebook, que u
 
 #### Protótipo de baixa fidelidade para Desktop:
 
-<img src="Prototipo-baixa-fidelidade-web.png" title="protótipo baixa fidelidade web">
+<img src="C:\Users\maagd\OneDrive\Área de Trabalho\SAP006-data-lovers\src\img readme\Prototipo-baixa-fidelidade-web.png" title="protótipo baixa fidelidade web">
 
 
 #### Protótipo de baixa fidelidade para Mobile:
 
 
-<img src="prototipo-baixa-fidelidade-mobile.png" title="protótipo baixa fidelidade mobile">
+<img src="C:\Users\maagd\OneDrive\Área de Trabalho\SAP006-data-lovers\src\img readme\prototipo-baixa-fidelidade-mobile.png" title="protótipo baixa fidelidade mobile">
 
 #### Protótipo de alta fidelidade:
 
-<img src="prototipo-de-alta-fidelidade.png" title="protótipo alta fidelidade">
+<img src="C:\Users\maagd\OneDrive\Área de Trabalho\SAP006-data-lovers\src\img readme\Prototipo-baixa-fidelidade-web.png" title="protótipo alta fidelidade">
 
 
 ## 5. Demonstração da aplicação
 
-<img src="versão-final-desktop.png" title="demonstração da aplicação">
+<img src="C:\Users\maagd\OneDrive\Área de Trabalho\SAP006-data-lovers\src\img readme\versão-final-desktop.JPG" title="demonstração da aplicação">
 
 ## 6. Testes Unitários
 
 Os testes garantem que uma unidade pequena do seu código funcione corretamente. Eles devem garantir que todos os seus caminhos de código sejam testados.
 
-<img src="testes-unitarios.jpg" title="testes unitarios">
+<img src="C:\Users\maagd\OneDrive\Área de Trabalho\SAP006-data-lovers\src\img readme\testes-unitarios.JPG" title="testes unitarios">
 
 
 ## 7. Objetivo de Aprendizagem
@@ -126,6 +126,6 @@ Os testes garantem que uma unidade pequena do seu código funcione corretamente.
 
 ## 8. Autoras
 <a href="https://github.com/Magnadutra/" target="_blank">Magna Dutra</a> e <a href="https://github.com/thaianecristine/" target="_blank">Thaiane Cristine</a>
- 
 
-<iframe src="https://giphy.com/embed/cOKjNdJDbqNCm4n0Jm" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rickandmorty-season-1-adult-swim-rick-and-morty-cOKjNdJDbqNCm4n0Jm">via GIPHY</a></p>
+<a href= "https://media.giphy.com/media/i2dE5VvBNxBw4/giphy.gif" target="_blank" width="480"  height="480" frameBorder="0">
+ 

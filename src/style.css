@@ -1,5 +1,6 @@
 * {
   padding: 0px;
+  /*/ tirar espaçamento padrão que já vem /*/
   margin: 0px;
   box-sizing: border-box;
 }
@@ -77,6 +78,7 @@ a.fa.fa-github {
   margin: auto;
   box-sizing: border-box;
   display: table;
+  /* background-color: rgb(155, 139, 139); */
 }
 
 .calculation {
@@ -85,6 +87,7 @@ a.fa.fa-github {
   text-align: center;
   font-family: monospace;
   font-size: large;
+
 }
 
 /* FIM Barra Lateral */
@@ -92,6 +95,7 @@ a.fa.fa-github {
 
 /* Cor ou imagem fundo */
 .img-fundo {
+  /* background-size: 100%; */
   background-color: rgb(219 190 50);
   margin-left: 28%;
 }
@@ -100,6 +104,7 @@ a.fa.fa-github {
 /* Inicio Selects */
 
 .organiza-selects {
+  /* background: black; */
   width: 10%;
   padding-top: 145px;
   position: fixed;
@@ -133,6 +138,12 @@ select:checked {
   opacity: 0.7;
 }
 
+/*select option {
+  color: #333;
+}
+option[value=""][disabled] {
+  display: none;
+}*/
 
 /* Inicio cards */
 
