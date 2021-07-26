@@ -185,7 +185,6 @@ select:checked {
   overflow: hidden;
   transform: scale(0.95);
   box-shadow: 0 0 6px 0px rgb(37 37 37);
-  /* background-image: url("https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/1.jpeg"); */
 }
 
 /*tamanho da imagem do card*/
