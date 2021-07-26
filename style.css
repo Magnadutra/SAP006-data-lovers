@@ -1,5 +1,5 @@
 * {
-  padding: 0px;/*/ tirar espaçamento padrão que já vem /*/
+  padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
@@ -11,6 +11,8 @@
   width: 27%;
   height: 100%;
   padding-top: 20px;
+
+
 
 }
 
@@ -83,7 +85,6 @@ a.fa.fa-github {
   text-align: center;
   font-family: monospace;
   font-size: large;
-
 }
 
 /* FIM Barra Lateral */
