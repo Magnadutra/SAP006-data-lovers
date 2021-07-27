@@ -39,14 +39,18 @@ Os úsuários que mais se interessam pela série têm entre 22 a 31 anos.
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img1.JPG"/>
 
 
-- 63,6% Consideram importante pesquisar sobre os personagens.
-<img src="img2.jpg" title="Quando assiste séries, pesquisa sobre os eprsonagnes?">
+- 63,6% Consideram importante pesquisar sobre os personagens
+
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img2.JPG"/>
+
 
 - 54,5% Indentificamos o Rick como o personagem favorito, importante para definirmos a proposta de layout e cores.
-<img src="img3.jpg" title="Qual dos dois personagens você mais gosta?">
 
-- 63,6% Dos usúarios consideram importante saber a espécie/gênero dos personagens.
-<img src="img4.jpg" title="Para você é importante saber a espécie/gênero dos personagens?">
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img3.JPG"/>
+
+- 63,6% Dos usúarios consideram importante saber a espécie/gênero dos personagens
+
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img4.JPG"/>
 
 - Critérios de aceitação:
 
@@ -195,30 +199,26 @@ E também levando em consideração grandes redes sociais como o Facebook, que u
 
 #### Protótipo de baixa fidelidade para Desktop:
 
-<img src="Prototipo-baixa-fidelidade-web.png" title="protótipo baixa fidelidade web">
+img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/prototipo-baixa-fidelidade-mobile.png"/>
 
 
 #### Protótipo de baixa fidelidade para Mobile:
 
-
-<img src="prototipo-baixa-fidelidade-mobile.png" title="protótipo baixa fidelidade mobile">
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/prototipo-de-alta-fidelidade.png"/>
 
 #### Protótipo de alta fidelidade:
 
-<img src="prototipo-de-alta-fidelidade.png" title="protótipo alta fidelidade">
-
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG"/>
 
 ## 5. Demonstração da aplicação
 
-<img src="versão-final-desktop.png" title="demonstração da aplicação">
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/vers%C3%A3o-final-desktop.JPG"/>
 
 ## 6. Testes Unitários
 
 Os testes garantem que uma unidade pequena do seu código funcione corretamente. Eles devem garantir que todos os seus caminhos de código sejam testados.
-
-<img src="testes-unitarios.jpg" title="testes unitarios">
-
-
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG
+          
 ## 7. Objetivo de Aprendizagem
 
 ### HTML e CSS
@@ -257,7 +257,8 @@ Os testes garantem que uma unidade pequena do seu código funcione corretamente.
 - [x] Colaboração no Github (branches | pull requests | |tags)
 
 ## 8. Autoras
+
 <a href="https://github.com/Magnadutra/" target="_blank">Magna Dutra</a> e <a href="https://github.com/thaianecristine/" target="_blank">Thaiane Cristine</a>
  
 
-<iframe src="https://giphy.com/embed/cOKjNdJDbqNCm4n0Jm" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rickandmorty-season-1-adult-swim-rick-and-morty-cOKjNdJDbqNCm4n0Jm">via GIPHY</a></p>
+![gif](https://media.giphy.com/media/cOKjNdJDbqNCm4n0Jm/giphy.gif)
