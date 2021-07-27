@@ -79,7 +79,7 @@ E também levando em consideração grandes redes sociais como o Facebook, que u
 
 #### Protótipo de alta fidelidade:
 
-<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG"/>
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/prototipo-de-alta-fidelidade.png"/>
 
 ## 5. Demonstração da aplicação
 
@@ -88,7 +88,8 @@ E também levando em consideração grandes redes sociais como o Facebook, que u
 ## 6. Testes Unitários
 
 Os testes garantem que uma unidade pequena do seu código funcione corretamente. Eles devem garantir que todos os seus caminhos de código sejam testados.
-<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG
+
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG")
           
 ## 7. Objetivo de Aprendizagem
 
