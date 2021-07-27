@@ -170,30 +170,6 @@ Tivemos o cuidado de não enviesar a pesquisa, afim de adquirir insights para a 
 
 Os úsuários que mais se interessam pela série têm entre 22 a 31 anos. 
 
-- 100% Dos usuários gostariam de saber mais sobre cada personagens.
-- 
-<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img1.JPG"/>
-
-
-- 63,6% Consideram importante pesquisar sobre os personagens.
-<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img2.JPG"/>
-
-- 54,5% Indentificamos o Rick como o personagem favorito, importante para definirmos a proposta de layout e cores.
-- 
-<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img3.JPG"/>
-
-- 63,6% Dos usúarios consideram importante saber a espécie/gênero dos personagens.
-
-<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img4.JPG"/>
-
-- Critérios de aceitação:
-
-- [x] O usuário consegue filtrar por gênero, espécie e status.
-- [x] O usuário consegue ordenar de A-Z e de Z-A.
-- [x] Constam informações dos personagens no flip.
-- [x] Ver os personagens em card.
-- [x] Os dois principais personagens Rick e Marty aparece no inicio da página.
-
 ## 4. Protótipos
 
 Existe um estudo da semiótica onde explica que a leitura da esquerda para a direita, criando um sequenciamento de informações e estabelecendo assim uma hierarquia visual, dando a ideia ocidental de início e fim.
