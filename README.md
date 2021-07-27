@@ -158,17 +158,6 @@ A série ainda esta em atividade em sua quinta temporada.
 
 ## 2. Proposta do Projeto
 
-Projeto Data Lovers proposto pelo bootcamp Laboratória, foi desenvolvido para os fãs e curiosos da série Rick And Marty.
-Com uma página web possibilita filtrar os personagens por Gênero, Espécie, Status e Ordem de A-Z ou de Z-A.
-
-## 3. Experiência do Usuário
-Com o objetivo de entender mais os fãs e curiosos da série, criamos um formulário, questionando o que pesquisam sobre os persongens e o tipo de informação que consideram relevantes em uma série.
-
-Tivemos o cuidado de não enviesar a pesquisa, afim de adquirir insights para a construção do projeto.
-
-<p>Para acessar o formulário, <a href="https://docs.google.com/forms/d/e/1FAIpQLScZM3fVLSUbG3ra-J8sbCT6H_j42ynyIJP-MucRztEj2FaD3w/viewform" target="_blank" style="color:#97CE4C" title="Clique aqui!"> Aqui.</A></p>
-
-Os úsuários que mais se interessam pela série têm entre 22 a 31 anos. 
 
 ## 4. Protótipos
 
