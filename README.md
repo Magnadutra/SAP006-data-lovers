@@ -1,4 +1,4 @@
-## Rick and Morty
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/logo.png"/>
 
 
 ## Índice
