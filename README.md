@@ -1,4 +1,4 @@
-## Rick and ## Rick and Morty
+## Rick and Morty
 
 
 ## Índice
@@ -171,16 +171,20 @@ Tivemos o cuidado de não enviesar a pesquisa, afim de adquirir insights para a 
 Os úsuários que mais se interessam pela série têm entre 22 a 31 anos. 
 
 - 100% Dos usuários gostariam de saber mais sobre cada personagens.
-<img src="img1.jpg" title="Gostaria de saber mais sobre cada personagem?">
+- 
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img1.JPG"/>
+
 
 - 63,6% Consideram importante pesquisar sobre os personagens.
-<img src="img2.jpg" title="Quando assiste séries, pesquisa sobre os eprsonagnes?">
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img2.JPG"/>
 
 - 54,5% Indentificamos o Rick como o personagem favorito, importante para definirmos a proposta de layout e cores.
-<img src="img3.jpg" title="Qual dos dois personagens você mais gosta?">
+- 
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img3.JPG"/>
 
 - 63,6% Dos usúarios consideram importante saber a espécie/gênero dos personagens.
-<img src="img4.jpg" title="Para você é importante saber a espécie/gênero dos personagens?">
+
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img4.JPG"/>
 
 - Critérios de aceitação:
 
