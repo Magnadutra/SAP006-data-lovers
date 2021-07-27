@@ -74,7 +74,7 @@ E também levando em consideração grandes redes sociais como o Facebook, que u
 
 #### Protótipo de baixa fidelidade para Mobile:
 
-<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/prototipo-de-alta-fidelidade.png"/>
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/Prototipo-baixa-fidelidade-web.png"/>
 
 #### Protótipo de alta fidelidade:
 
