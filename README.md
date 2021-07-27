@@ -36,7 +36,7 @@ Os úsuários que mais se interessam pela série têm entre 22 a 31 anos.
 
 - 100% Dos usuários gostariam de saber mais sobre cada personagens
 
-![img1] (https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img1.JPG)
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img1.JPG"/>
 
 
 - 63,6% Consideram importante pesquisar sobre os personagens.
