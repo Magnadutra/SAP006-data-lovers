@@ -35,7 +35,8 @@ Tivemos o cuidado de não enviesar a pesquisa, afim de adquirir insights para a 
 Os úsuários que mais se interessam pela série têm entre 22 a 31 anos. 
 
 - 100% Dos usuários gostariam de saber mais sobre cada personagens
-![img1] (img-readme/img1.JPG)
+
+![img1] (src/img readme/img1.JPG)
 
 
 - 63,6% Consideram importante pesquisar sobre os personagens.
