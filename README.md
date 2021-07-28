@@ -65,7 +65,7 @@ Os úsuários que mais se interessam pela série têm entre 22 a 31 anos.
 
 Existe um estudo da semiótica onde explica que a leitura da esquerda para a direita, criando um sequenciamento de informações e estabelecendo assim uma hierarquia visual, dando a ideia ocidental de início e fim.
 
-E também levando em consideração grandes redes sociais como o Facebook, que utiliza-se o menu da esquerda para a direita, criamos o menu do lado esquerdo.
+E também levando em consideração grandes redes sociais como o Facebook, que utiliza o menu da esquerda para a direita, criamos o menu do lado esquerdo.
 
 
 #### Protótipo de baixa fidelidade para Desktop:
