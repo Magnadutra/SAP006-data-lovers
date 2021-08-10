@@ -1,6 +1,5 @@
-import { filterGenderSelected, filterSpeciesSelected, filterStatusSelected, sortOrder, calcFilter } from './data.js';
+import { filterSelected, sortOrder, calcFilter } from './data.js';
 import data from './data/rickandmorty/rickandmorty.js';
-
 
 const dataBase = data.results;
 const selectGender = document.querySelector('.filter-gender')
@@ -8,50 +7,39 @@ const filterSelectSpecies = document.querySelector('.filter-species');
 const filterSelectStatus = document.querySelector('.filter-status');
 const filterSelectOrder = document.querySelector('.filter-order');
 
-
 selectGender.addEventListener('change', filterGender);
 filterSelectSpecies.addEventListener('change', filterSpecies);
 filterSelectStatus.addEventListener('change', filterStatus);
 filterSelectOrder.addEventListener('change', filterOrder);
 
-
+// Para printar o card na tela
 function printCharacters(personagem) {
   let mainPersonagens = document.getElementById("personagens")
 
-  let cards = ""
-  for (let item in personagem) {
-    let info = personagem[item];
+    const cards = personagem.map((info) => (`
 
-
-    cards +=
-      `
-
-   <div class="organiza-cards">
-    <div class="formatacao-card"> 
-
+    <div class="organiza-cards">
+    <div class="formatacao-card">
       <div class="card-frente">
         <img src="${info.image}">
-      
         <p class="title">${info.name}</p>
       </div>
-      
       <div class="card-verso">
         <ul>
-          <li>Gênero: ${info.gender}</li> 
+          <li>Gênero: ${info.gender}</li>
           <li>Espécie: ${info.species}</li>
           <li>Status: ${info.status}</li>
           <li>Status: ${info.location.name}</li>
         </ul>
       </div>
-
     </div>
   </div>
-`
-  }
-  mainPersonagens.innerHTML = cards
-}
-printCharacters(dataBase)
 
+  `)).join('')
+
+    mainPersonagens.innerHTML = cards
+  }
+  printCharacters(dataBase)
 
 function resultCalc(dataBase, selectedFilter) {
   let result = calcFilter(dataBase, selectedFilter)
