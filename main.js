@@ -12,12 +12,10 @@ filterSelectSpecies.addEventListener('change', filterSpecies);
 filterSelectStatus.addEventListener('change', filterStatus);
 filterSelectOrder.addEventListener('change', filterOrder);
 
-// Para printar o card na tela
 function printCharacters(personagem) {
-  let mainPersonagens = document.getElementById("personagens")
+  const mainPersonagens = document.getElementById("personagens")
 
-    const cards = personagem.map((info) => (`
-
+  const cards = personagem.map((info) => (`
     <div class="organiza-cards">
     <div class="formatacao-card">
       <div class="card-frente">
@@ -34,35 +32,35 @@ function printCharacters(personagem) {
       </div>
     </div>
   </div>
-
   `)).join('')
 
-    mainPersonagens.innerHTML = cards
-  }
-  printCharacters(dataBase)
+  mainPersonagens.innerHTML = cards
+}
+printCharacters(dataBase)
+
 
 function resultCalc(dataBase, selectedFilter) {
-  let result = calcFilter(dataBase, selectedFilter)
+  const result = calcFilter(dataBase, selectedFilter)
   document.getElementById("calculation").innerHTML = "Existem " + selectedFilter.length + " personagens deste filtro e representam " + result + "% do total de personagens"
 }
 
 function filterGender() {
   const valueGenderSelected = selectGender.value
-  const selecteddGender = filterGenderSelected(dataBase, valueGenderSelected)
+  const selecteddGender = filterSelected(dataBase, valueGenderSelected, 'gender')
   printCharacters(selecteddGender)
   resultCalc(dataBase, selecteddGender)
 }
 
 function filterSpecies() {
   const valueSpeciesSelected = filterSelectSpecies.value
-  const selectedSpecies = filterSpeciesSelected(dataBase, valueSpeciesSelected)
+  const selectedSpecies = filterSelected(dataBase, valueSpeciesSelected, 'species')
   printCharacters(selectedSpecies)
   resultCalc(dataBase, selectedSpecies)
 }
 
 function filterStatus() {
   const valueStatusSelected = filterSelectStatus.value
-  const selectedStatus = filterStatusSelected(dataBase, valueStatusSelected)
+  const selectedStatus = filterSelected(dataBase, valueStatusSelected, 'status')
   printCharacters(selectedStatus)
   resultCalc(dataBase, selectedStatus)
 }
