@@ -80,7 +80,6 @@ Os úsuários que mais se interessam pela série têm entre 22 a 31 anos.
 - [x] Ver os personagens em card.
 - [x] Os dois principais personagens Rick e Marty aparece no inicio da página.
 
-
 ## 4. Protótipos
 
 Existe um estudo da semiótica onde explica que a leitura da esquerda para a direita, criando um sequenciamento de informações e estabelecendo assim uma hierarquia visual, dando a ideia ocidental de início e fim.
