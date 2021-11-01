@@ -121,7 +121,6 @@ E também levando em consideração grandes redes sociais como o Facebook, que u
 
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/vers%C3%A3o-final-desktop.JPG"/>
 
->>>>>>> 0b6337118b37a7ae43853b5cbd3fb012071b8f3b
 
 ## 6. Testes Unitários
 
