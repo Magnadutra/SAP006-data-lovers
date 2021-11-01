@@ -90,19 +90,9 @@ Existe um estudo da semiótica onde explica que a leitura da esquerda para a dir
 
 E também levando em consideração grandes redes sociais como o Facebook, que utiliza o menu da esquerda para a direita, criamos o menu do lado esquerdo.
 
-
-#### Protótipo de baixa fidelidade para Desktop:
-
-<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/prototipo-baixa-fidelidade-mobile.png"/>
-
-#### Protótipo de baixa fidelidade para Mobile:
-
-
-
-
 #### Protótipo de alta fidelidade:
 
-
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/prototipo-de-alta-fidelidade.png"/>
 
 
 ## 5. Demonstração da aplicação
@@ -116,10 +106,6 @@ Os testes garantem que uma unidade pequena do seu código funcione corretamente.
 
 
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG"/>
-
-
-
-<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG">
           
 
 ## 7. Objetivo de Aprendizagem
