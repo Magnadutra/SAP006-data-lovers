@@ -32,6 +32,8 @@ Tivemos o cuidado de não enviesar a pesquisa, afim de adquirir insights para a 
 
 <p>Para acessar o formulário, <a href="https://docs.google.com/forms/d/e/1FAIpQLScZM3fVLSUbG3ra-J8sbCT6H_j42ynyIJP-MucRztEj2FaD3w/viewform" target="_blank" title="Clique aqui!"> Aqui.</A></p>
 
+<p>Para acessar o formulário, <a href="https://docs.google.com/forms/d/e/1FAIpQLScZM3fVLSUbG3ra-J8sbCT6H_j42ynyIJP-MucRztEj2FaD3w/viewform" target="_blank" style="color:#97CE4C" title="Clique aqui!">Clique aqui.</A></p>
+
 Os úsuários que mais se interessam pela série têm entre 22 a 31 anos. 
 
 - 100% Dos usuários gostariam de saber mais sobre cada personagens.
@@ -50,11 +52,6 @@ Os úsuários que mais se interessam pela série têm entre 22 a 31 anos.
 - 63,6% Dos usúarios consideram importante saber a espécie/gênero dos personagens.
 
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img4.JPG"/>
-
-
-<p>Para acessar o formulário, <a href="https://docs.google.com/forms/d/e/1FAIpQLScZM3fVLSUbG3ra-J8sbCT6H_j42ynyIJP-MucRztEj2FaD3w/viewform" target="_blank" style="color:#97CE4C" title="Clique aqui!">Clique aqui.</A></p>
-
-Os úsuários que mais se interessam pela série têm entre 22 a 31 anos. 
 
 - 100% Dos usuários gostariam de saber mais sobre cada personagens
 
