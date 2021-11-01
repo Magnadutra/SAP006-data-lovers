@@ -52,7 +52,6 @@ Os úsuários que mais se interessam pela série têm entre 22 a 31 anos.
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img4.JPG"/>
 
 
-=======
 <p>Para acessar o formulário, <a href="https://docs.google.com/forms/d/e/1FAIpQLScZM3fVLSUbG3ra-J8sbCT6H_j42ynyIJP-MucRztEj2FaD3w/viewform" target="_blank" style="color:#97CE4C" title="Clique aqui!">Clique aqui.</A></p>
 
 Os úsuários que mais se interessam pela série têm entre 22 a 31 anos. 
@@ -94,7 +93,6 @@ E também levando em consideração grandes redes sociais como o Facebook, que u
 
 #### Protótipo de baixa fidelidade para Desktop:
 
-<<<<<<< HEAD
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/prototipo-baixa-fidelidade-mobile.png"/>
 
 #### Protótipo de baixa fidelidade para Mobile:
@@ -106,7 +104,7 @@ E também levando em consideração grandes redes sociais como o Facebook, que u
 
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG"/>
 
-=======
+
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/Prototipo-baixa-fidelidade-web.png"/>
 
 
@@ -117,28 +115,26 @@ E também levando em consideração grandes redes sociais como o Facebook, que u
 #### Protótipo de alta fidelidade:
 
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/prototipo-de-alta-fidelidade.png"/>
->>>>>>> 0b6337118b37a7ae43853b5cbd3fb012071b8f3b
+
 
 ## 5. Demonstração da aplicação
 
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/vers%C3%A3o-final-desktop.JPG"/>
-<<<<<<< HEAD
 
-=======
 >>>>>>> 0b6337118b37a7ae43853b5cbd3fb012071b8f3b
 
 ## 6. Testes Unitários
 
 Os testes garantem que uma unidade pequena do seu código funcione corretamente. Eles devem garantir que todos os seus caminhos de código sejam testados.
 
-<<<<<<< HEAD
+
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG"/>
 
 
-=======
+
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG">
           
->>>>>>> 0b6337118b37a7ae43853b5cbd3fb012071b8f3b
+
 ## 7. Objetivo de Aprendizagem
 
 ### HTML e CSS
@@ -182,10 +178,8 @@ Os testes garantem que uma unidade pequena do seu código funcione corretamente.
  
 
 ![gif](https://media.giphy.com/media/cOKjNdJDbqNCm4n0Jm/giphy.gif)
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> 0b6337118b37a7ae43853b5cbd3fb012071b8f3b
+
