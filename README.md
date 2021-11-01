@@ -30,8 +30,6 @@ Com o objetivo de entender mais os fãs e curiosos da série, criamos um formul�
 
 Tivemos o cuidado de não enviesar a pesquisa, afim de adquirir insights para a construção do projeto.
 
-<p>Para acessar o formulário, <a href="https://docs.google.com/forms/d/e/1FAIpQLScZM3fVLSUbG3ra-J8sbCT6H_j42ynyIJP-MucRztEj2FaD3w/viewform" target="_blank" title="Clique aqui!"> Aqui.</A></p>
-
 <p>Para acessar o formulário, <a href="https://docs.google.com/forms/d/e/1FAIpQLScZM3fVLSUbG3ra-J8sbCT6H_j42ynyIJP-MucRztEj2FaD3w/viewform" target="_blank" style="color:#97CE4C" title="Clique aqui!">Clique aqui.</A></p>
 
 Os úsuários que mais se interessam pela série têm entre 22 a 31 anos. 
