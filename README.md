@@ -73,7 +73,7 @@ Os úsuários que mais se interessam pela série têm entre 22 a 31 anos.
 - 63,6% Dos usúarios consideram importante saber a espécie/gênero dos personagens
 
 <img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img4.JPG"/>
->>>>>>> 0b6337118b37a7ae43853b5cbd3fb012071b8f3b
+
 
 - Critérios de aceitação:
 
