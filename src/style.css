@@ -225,6 +225,14 @@ body {
 
 /* RESPONSIVIDADE  */
 
+
+@media only screen and (max-width: 1600px) {
+ .organiza-cards {
+width: 36%;
+ }
+
+}
+
 @media only screen and (max-width: 1200px) {
 
   .organiza-cards {

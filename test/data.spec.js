@@ -1,4 +1,4 @@
-import { filterGenderSelected, filterStatusSelected, filterSpeciesSelected, sortOrder, calcFilter } from '../src/data.js';
+import { filterSelected, filterGenderSelected, filterStatusSelected, filterSpeciesSelected, sortOrder, calcFilter } from '../src/data.js';
 const dataBaseTeste = [
   {
     "id": 3,
@@ -109,7 +109,7 @@ const dataBaseTeste = [
 
 describe('Testar filtro Genero', () => {
   it('retornar se é uma função', () => {
-    expect(typeof filterGenderSelected).toBe('function');
+    expect(typeof filterSelected).toBe('function');
   });
   it('retornar personagens femininos', () => {
     expect(filterGenderSelected(dataBaseTeste, "Female")).toMatchObject([{ "gender": "Female", "id": 3, "name": "Summer Smith", "species": "Human", "status": "Alive", "type": "" }, { "gender": "Female", "id": 26, "name": "Arthricia", "species": "Alien", "status": "Alive", "type": "Cat-Person" }, { "gender": "Female", "id": 381, "name": "Woman Rick", "species": "Alien", "status": "Alive", "type": "Chair" }, { "gender": "Female", "id": 249, "name": "Mrs. Sanchez", "species": "Human", "status": "unknown", "type": "" }]);
@@ -121,7 +121,7 @@ describe('Testar filtro Genero', () => {
 
 describe('Testar Filtro de Status', () => {
   it('retornar se é uma função', () => {
-    expect(typeof filterStatusSelected).toBe('function');
+    expect(typeof filterSelected).toBe('function');
   });
   it('retornar personagens unknown', () => {
     expect(filterStatusSelected(dataBaseTeste, "unknown")).toMatchObject([{ "gender": "Male", "id": 19, "name": "Antenna Rick", "species": "Human", "status": "unknown", "type": "Human with antennae" }, { "gender": "Male", "id": 369, "name": "Tusked Assassin", "species": "Alien", "status": "unknown", "type": "Tuskfish" }, { "gender": "Female", "id": 249, "name": "Mrs. Sanchez", "species": "Human", "status": "unknown", "type": "" }]);
@@ -133,7 +133,7 @@ describe('Testar Filtro de Status', () => {
 
 describe('Testar Filtro de Espécie', () => {
   it('retornar se é uma função', () => {
-    expect(typeof filterSpeciesSelected).toBe('function');
+    expect(typeof filterSelected).toBe('function');
   });
   it('retornar personagens humanos', () => {
     expect(filterSpeciesSelected(dataBaseTeste, "Human")).toMatchObject([{ "gender": "Female", "id": 3, "name": "Summer Smith", "species": "Human", "status": "Alive", "type": "" }, { "gender": "Male", "id": 69, "name": "Commander Rick", "species": "Human", "status": "Dead", "type": "" }, { "gender": "Male", "id": 475, "name": "Dancer Morty", "species": "Human", "status": "Alive", "type": "" }, { "gender": "Male", "id": 19, "name": "Antenna Rick", "species": "Human", "status": "unknown", "type": "Human with antennae" }, { "gender": "Female", "id": 249, "name": "Mrs. Sanchez", "species": "Human", "status": "unknown", "type": "" }]);

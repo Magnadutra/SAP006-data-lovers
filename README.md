@@ -35,19 +35,23 @@ Tivemos o cuidado de não enviesar a pesquisa, afim de adquirir insights para a 
 Os úsuários que mais se interessam pela série têm entre 22 a 31 anos. 
 
 - 100% Dos usuários gostariam de saber mais sobre cada personagens.
-![img1] (src/img-readme/img1.JPG)
+
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img1.JPG"/>
 
 - 63,6% Consideram importante pesquisar sobre os personagens.
 
-![img2] (src/img-readme/img2.JPG)
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img2.JPG"/>
 
 - 54,5% Indentificamos o Rick como o personagem favorito, importante para definirmos a proposta de layout e cores.
 
-![img3] (src/img-readme/img3.JPG)
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img3.JPG"/>
+
 
 - 63,6% Dos usúarios consideram importante saber a espécie/gênero dos personagens.
 
-![img4] (src/img-readme/img4.JPG)
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/img4.JPG"/>
+
+
 
 - Critérios de aceitação:
 
@@ -66,30 +70,28 @@ E também levando em consideração grandes redes sociais como o Facebook, que u
 
 #### Protótipo de baixa fidelidade para Desktop:
 
-
-![prototipoweb] (src/img-readme/protótipo-baixa-fidelidade-web.png)
-
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/prototipo-baixa-fidelidade-mobile.png"/>
 
 #### Protótipo de baixa fidelidade para Mobile:
 
-![mobile] (src/img-readme/prototipo-baixa-fidelidade-mobile.png)
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/prototipo-de-alta-fidelidade.png"/>
 
 
 #### Protótipo de alta fidelidade:
 
-![fidelidade] (src/img-readme/prototipo-de-alta-fidelidade.png)
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG"/>
 
 
 ## 5. Demonstração da aplicação
 
-![demonstracao] (src/img-readme/versão-final-desktop.png)
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/vers%C3%A3o-final-desktop.JPG"/>
 
 
 ## 6. Testes Unitários
 
 Os testes garantem que uma unidade pequena do seu código funcione corretamente. Eles devem garantir que todos os seus caminhos de código sejam testados.
 
-![testes unitarios] (src/img-readme/testes-unitarios.jpg)
+<img src="https://github.com/Magnadutra/SAP006-data-lovers/blob/main/src/img%20readme/testes-unitarios.JPG"/>
 
 
 ## 7. Objetivo de Aprendizagem
@@ -134,3 +136,7 @@ Os testes garantem que uma unidade pequena do seu código funcione corretamente.
  
 
 ![gif](https://media.giphy.com/media/cOKjNdJDbqNCm4n0Jm/giphy.gif)
+
+
+
+
